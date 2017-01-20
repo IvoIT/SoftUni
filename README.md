@@ -1,2 +1,2 @@
-# SoftUniProgrammingFundamentals
-All of my programming fundamental exerciss
+# SoftUni
+Homework exercises
