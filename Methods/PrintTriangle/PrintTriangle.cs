@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Printing_Triangle
+namespace PrintingTriangle
 {
-    public class Printing_Triangle
+    public class PrintingTriangle
     {
         public static void Main()
         {
