@@ -1,13 +1,20 @@
 ﻿using System;
+using System.Linq;
 
-namespace NumberInReservedOred
+namespace NumbersInReservedOrder
 {
     public class NumbersInReservedOrder
     {
         public static void Main()
         {
-            string numberInput = Console.ReadLine();
+            string input = Console.ReadLine();
 
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                Console.Write(input[i]);
+            }
+
+            Console.WriteLine();
 
         }
     }
