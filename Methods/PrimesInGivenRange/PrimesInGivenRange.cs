@@ -52,11 +52,10 @@ namespace PrimesInGivenRange
                     }
                     counter = 0;
                 }
-                foreach (var item in numbers)
-                {
-                    Console.Write(item + ", ");
-                }
-                Console.WriteLine();
+            
+              
+
+                Console.WriteLine(string.Join(", ", numbers));
             
         }
     }
